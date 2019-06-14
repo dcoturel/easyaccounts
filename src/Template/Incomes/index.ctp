@@ -59,7 +59,6 @@
                   <td class="actions text-right">
                   <?php if ($income->is_editable): ?>
                       <?= $this->Html->link(__('View'), ['action' => 'view', $income->id], ['class'=>'btn btn-info btn-xs']) ?>
-                      <?= $this->Html->link(__('Edit'), ['action' => 'edit', $income->id], ['class'=>'btn btn-warning btn-xs']) ?>
                       <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $income->id], ['confirm' => __('Are you sure you want to delete # {0}?', $income->id), 'class'=>'btn btn-danger btn-xs']) ?>
                   <?php endif; ?>
                   </td>

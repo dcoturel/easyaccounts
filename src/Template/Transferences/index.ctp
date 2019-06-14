@@ -59,7 +59,6 @@
                   <td class="actions text-right">
                   <?php if ($transference->is_editable): ?>
                       <?= $this->Html->link(__('View'), ['action' => 'view', $transference->id], ['class'=>'btn btn-info btn-xs']) ?>
-                      <?= $this->Html->link(__('Edit'), ['action' => 'edit', $transference->id], ['class'=>'btn btn-warning btn-xs']) ?>
                       <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $transference->id], ['confirm' => __('Are you sure you want to delete # {0}?', $transference->id), 'class'=>'btn btn-danger btn-xs']) ?>
                   <?php endif; ?>
                   </td>
