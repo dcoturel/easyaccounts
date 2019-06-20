@@ -35,4 +35,15 @@ The project is open for contributions. Just:
 2. Feature branch
 3. Pull request
 
+## Using
 
+The software is free to use. It's powered by [CakePHP](https://cakephp.org/), so I recommend to verify the minimum requirements for the framework in this page: [CakePHP Requirements](https://book.cakephp.org/3.0/en/installation.html). Also, it is good to read the [configuration](https://book.cakephp.org/3.0/en/development/configuration.html) page in order to know how to configure the database.
+
+The steps for installation are:
+
+1. Clone the project in your server
+2. Run composer install to install dependencies
+3. Configure the database
+4. Run bin\cake migrations migrate in order to generate database schema
+5. Configure your web server in order to publish the website
+6. Open www.example.com/users/configure and create **Administrator** user password
